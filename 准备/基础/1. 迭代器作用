@@ -1,0 +1,11 @@
+1. for-of for-in 区别
+
+for-in是ES5标准，遍历的是key（可遍历对象、数组或字符串的key）；
+for-of是ES6标准，遍历的是value（可遍历对象、数组或字符串的value）。
+
+```
+var arr = [1, 2, 4, 5, 7];
+for (var index in arr) {
+　　console.log(myArray[index]);
+}
+``
